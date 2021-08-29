@@ -18,8 +18,8 @@ function check(){
 		return true; 
 	}
 }
-	const target = document.getElementById("hamburger_box");
-target.addEventListener('click', () => {
+const target = document.getElementById("hamburger_box");
+	target.addEventListener('click', () => {
   target.classList.toggle('open');
   const nav = document.getElementById("hamburger_eat");
   nav.classList.toggle('in');

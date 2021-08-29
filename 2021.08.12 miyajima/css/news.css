@@ -124,6 +124,12 @@ ul {
 li {
   margin-right: 20px;
 }
+@media screen and (min-width:1024px) {
+.hamburger_box {
+  display: none;
+}
+}
+
 /*home*/
 .home_pic {
   position: relative;
