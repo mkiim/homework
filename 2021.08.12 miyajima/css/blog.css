@@ -263,3 +263,20 @@ small {
   .footer_nav-rist-company,
   .footer_nav-rist-adopt {
     border: #000;
+  }
+  @media screen and (max-width: 480px) { 
+      .home_logo1 {
+        font-size: 2em;
+      }
+      .blog_card,
+      .blog_card-second {
+        display: flex;
+        flex-direction: column;
+      }
+      .contact_message {
+      font-size: 1em;
+      }
+      .contact_index {
+    font-size: 2em;
+    }
+    }

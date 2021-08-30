@@ -425,3 +425,60 @@ small {
   .footer_nav-rist-company,
   .footer_nav-rist-adopt {
     border: #000;
+  }
+  @media screen and (max-width: 480px) {
+  .home_logo1 {
+  width: 100%;
+  font-size: 1.5em;
+  color: white;
+  text-align: center;
+}
+.home_logo2{
+  color:white;
+  font-size: 0.5em;
+  width: 100%;
+  text-align: center;
+}
+.home_logo {
+  width: 100%;
+  position: absolute;
+  top:50%;
+  text-align: center;
+}
+.card,
+.blog_card {
+  display: flex;
+  flex-direction: column;
+}
+.news_list {
+font-size: 1em;
+padding: 10px;
+margin-top: 30px;
+}
+.news_btn {
+  font-size: 0.9em;
+  padding: 10px;
+  line-height: 20px;
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  margin: 40px 10px 0 0;
+}
+.news_index {
+  font-size: 1.5em;
+  margin: 40px 0 0 30px;
+  padding: 0;
+  width: 100%;
+}
+.campany_btn,
+.adopt_btn {
+  font-size: 2em;
+  padding: 50px 0 50px 0;
+}
+.contact_message {
+  font-size: 1em;
+}
+.contact_index {
+  font-size: 2em;
+}
+}

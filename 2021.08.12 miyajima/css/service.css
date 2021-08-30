@@ -256,4 +256,25 @@ small {
   .footer_nav-rist-blog,
   .footer_nav-rist-company,
   .footer_nav-rist-adopt {
-    border: #000;
+    border: #000;}
+    @media screen and (max-width: 480px) { 
+      .home_logo {
+        font-size: 2em;
+      }
+      .card,
+      .card_one {
+      display: flex;
+      flex-direction: column;
+      }
+      .card_word,
+      .card_word1 {
+        font-size: 1em;
+        width: 100%;
+      }
+      .contact_message {
+      font-size: 1em;
+      }
+      .contact_index {
+    font-size: 2em;
+    }
+    }

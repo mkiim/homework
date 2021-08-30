@@ -240,3 +240,22 @@ small {
   .footer_nav-rist-company,
   .footer_nav-rist-adopt {
     border: #000;
+  }
+  @media screen and (max-width: 480px) {
+    .home_logo1 {
+      font-size: 2em;
+    }
+    tr {
+      font-size: 1em;
+    }
+    th {
+      line-height: 50px;
+    }
+    .contact_message {
+      font-size: 1em;
+      }
+      .contact_index {
+    font-size: 2em;
+    }
+
+  }
